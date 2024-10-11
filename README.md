@@ -14,6 +14,10 @@ bash <(curl -L https://chalisehari.com.np/rdevs)
 
 Contributions are welcome! If you want to help improve **Rdevs**, please check the **[CONTRIBUTING.md](https://github.com/harilvfs/rdevs/blob/main/.github/CONTRIBUTING.md)** for the contribution guide.
 
+## Documentation
+
+For a comprehensive understanding, please refer to the [Rdevs Documentation](https://harilvfs.github.io/rdevs/).
+
 ## License 📄 
 
 This project is licensed under the **MIT**. See the **[LICENSE](LICENSE)** file for details.
