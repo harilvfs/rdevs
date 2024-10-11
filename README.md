@@ -5,7 +5,7 @@
 ![Preview](preview/rdevs.png)
 
 ## Usages 🚀
-Run the command
+Exec the command in your terminal:
 ```shell
 bash <(curl -L https://chalisehari.com.np/rdevs)
 ```
