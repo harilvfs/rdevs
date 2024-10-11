@@ -10,7 +10,7 @@ Thank you for your interest in contributing to Rdevs! We appreciate your help in
     curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
     ```
 
-2. **Fork the Repository**: Navigate to the [Rdevs GitHub repository](#) and fork it to your own GitHub account.
+2. **Fork the Repository**: Navigate to the [Rdevs GitHub repository](https://github.com/harilvfs/rdevs) and fork it to your own GitHub account.
 
 3. **Clone Your Fork**: Clone your forked repository to your local machine:
 
