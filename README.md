@@ -7,7 +7,7 @@
 ## Usages 🚀
 Run the command
 ```shell
-bash <(curl -L https://chalisehari.com.np/carch)
+bash <(curl -L https://chalisehari.com.np/rdevs)
 ```
 
 ## Contributing 🤝 
