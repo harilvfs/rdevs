@@ -1,4 +1,3 @@
-
 use std::io::{stdout};
 use ratatui::{
     backend::CrosstermBackend,
