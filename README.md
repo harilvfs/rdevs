@@ -4,6 +4,12 @@
 
 ![Preview](preview/rdevs.png)
 
+## Usages 🚀
+Run the command
+```shell
+bash <(curl -L https://chalisehari.com.np/rdevs)
+```
+
 ## Contributing 🤝 
 
 Contributions are welcome! If you want to help improve Rdevs, please fork the repository and submit a pull request.
