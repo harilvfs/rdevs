@@ -35,7 +35,7 @@ jobs:
           cargo build --release || { echo "Build failed"; exit 1; }
           if [ -f target/release/rdevs ]; then
               mkdir -p build
-              mv target/release/rdevs ./build/carch
+              mv target/release/rdevs ./build/rdevs
           else
               echo "Binary not found. Build may have failed."
               exit 1
@@ -51,6 +51,6 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add build/carch
+          git add build/rdevs
           git commit -m "Update build directory with new binary" || echo "No changes to commit"
-          git push https://x-access-token:${GITHUB_TOKEN}@github.com/harilvfs/carch.git HEAD:main || echo "Push failed. Check permissions."
+          git push https://x-access-token:${GITHUB_TOKEN}@github.com/harilvfs/rdevs.git HEAD:main || echo "Push failed. Check permissions."
