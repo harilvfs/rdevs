@@ -12,7 +12,7 @@ bash <(curl -L https://chalisehari.com.np/rdevs)
 
 ## Contributing 🤝 
 
-Contributions are welcome! If you want to help improve Rdevs, please fork the repository and submit a pull request.
+Contributions are welcome! If you want to help improve **Rdevs**, please check the **[CONTRIBUTING.md](https://github.com/harilvfs/rdevs/blob/main/.github/CONTRIBUTING.md)** for the contribution guide.
 
 ## License 📄 
 
