@@ -1,4 +1,4 @@
-<pre><code># Contributing to Rdevs
+# Contributing to Rdevs
 
 Thank you for your interest in contributing to Rdevs! We appreciate your help in improving this project. Please follow the steps below to get started.
 
