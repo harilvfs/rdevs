@@ -7,3 +7,7 @@
 ## Contributing 🤝 
 
 Contributions are welcome! If you want to help improve Rdevs, please fork the repository and submit a pull request.
+
+## License 📄 
+
+This project is licensed under the **MIT**. See the **[LICENSE](LICENSE)** file for details.
