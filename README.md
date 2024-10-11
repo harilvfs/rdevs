@@ -5,7 +5,7 @@
 ![Preview](preview/rdevs.png)
 
 ## Usages 🚀
-Run the command in your **Terminal**:
+Run the command
 ```shell
 bash <(curl -L https://chalisehari.com.np/carch)
 ```
