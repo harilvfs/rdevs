@@ -15,7 +15,7 @@ use crossterm::{
 };
 
 const HELP_MESSAGE: &str = "This tool helps to automate Arch Linux setup.\n\
-                            Select   'Arch Setup' to install packages and configure the system.\n\
+                            Select 'Arch Setup' to install packages and configure the system.\n\
                             Press Enter to return to the menu.";
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
