@@ -6,7 +6,7 @@
 
 ## Usages 🚀
 
-Execute the following command in your terminal:
+**Execute the following command in your terminal**:
 
 ```bash
 bash <(curl -L https://chalisehari.com.np/rdevs)
@@ -14,13 +14,13 @@ bash <(curl -L https://chalisehari.com.np/rdevs)
 
 ## Contributing 🤝 
 
-Contributions are welcome! If you’d like to help enhance **Rdevs**, please refer to the **[CONTRIBUTING.md](https://github.com/harilvfs/rdevs/blob/main/.github/CONTRIBUTING.md)** for guidelines on how to contribute.
+**Contributions** are welcome! If you’d like to help enhance **Rdevs**, please refer to the **[CONTRIBUTING.md](https://github.com/harilvfs/rdevs/blob/main/.github/CONTRIBUTING.md)** for guidelines on how to contribute.
 
 Check out the **Rdevs** roadmap [here](https://github.com/harilvfs/rdevs/blob/main/roadmap.md) for insights into our future development.
 
 ## Documentation 📚
 
-For a comprehensive understanding, please check out the [Rdevs Documentation](https://harilvfs.github.io/rdevs/).
+For a **Comprehensive** understanding, please check out the **[Rdevs Documentation](https://harilvfs.github.io/rdevs/)**.
 
 ## License 📄 
 
