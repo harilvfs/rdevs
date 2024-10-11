@@ -21,7 +21,7 @@ bash <(curl -L https://chalisehari.com.np/rdevs)
 
 **Contributions** are welcome! If you’d like to help enhance **Rdevs**, please refer to the **[CONTRIBUTING.md](https://github.com/harilvfs/rdevs/blob/main/.github/CONTRIBUTING.md)** for guidelines on how to contribute.
 
-Check out the **Rdevs** roadmap [here](https://github.com/harilvfs/rdevs/blob/main/roadmap.md) for insights into our future development.
+Check out the **Rdevs** roadmap [Rdevs Roadmap](https://github.com/harilvfs/rdevs/blob/main/roadmap.md) for insights into our future development.
 
 ## Documentation 📚
 
