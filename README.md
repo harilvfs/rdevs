@@ -4,6 +4,10 @@
 
 ![Preview](preview/rdevs.png)
 
+> [!CAUTION]
+> This project is in development. Test scripts in a virtual machine (VM).  
+> Report issues you find, and avoid using on your main system until a stable release is available.
+
 ## Usages 🚀
 
 **Execute the following command in your terminal**:
