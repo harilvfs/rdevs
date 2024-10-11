@@ -17,6 +17,8 @@ If applicable, add screenshots to help explain your problem.
 ## Environment
 
 - **Distro**: (e.g.Arch,Debian,Fedora,opensuse)
+- **Terminal Emulator**: [e.g., Alacritty, Kitty, etc.]
+- **Shell**: [e.g., Bash or Zsh]
 - **Rust Version**: (e.g., `rustc --version`)
 - **Rdevs Version**: (if applicable)
 
