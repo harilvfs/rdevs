@@ -87,5 +87,4 @@ Here are some common issues you might encounter while using Rdevs and their solu
 ### Version 1.0.0
 
 - Initial release of Rdevs with basic functionality for system setup.
-- Implemented menu options for Arch setup and Hyprland setup.
 
