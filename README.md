@@ -18,7 +18,7 @@ Contributions are welcome! If you’d like to help enhance **Rdevs**, please ref
 
 ## Documentation 📚
 
-For a better understanding, please check out the [Rdevs Documentation](https://harilvfs.github.io/rdevs/).
+For a comprehensive understanding, please check out the [Rdevs Documentation](https://harilvfs.github.io/rdevs/).
 
 ## License 📄 
 
