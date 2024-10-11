@@ -5,7 +5,7 @@
 ![Preview](preview/rdevs.png)
 
 > [!CAUTION]
-> This project is in development. Test scripts in a virtual machine (VM).  
+> Since the project is in development phase. Recommended To Test scripts in a virtual machine (VM).  
 > Report issues you find, and avoid using on your main system until a stable release is available.
 
 ## Usages 🚀
