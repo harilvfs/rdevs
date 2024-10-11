@@ -5,8 +5,8 @@
 ![Preview](preview/rdevs.png)
 
 > [!CAUTION]
-> Since the project is in development phase. Recommended To Test scripts in a virtual machine (VM).  
-> Report issues you find, and avoid using on your main system until a stable release is available.
+> Since the project is in development phase. Recommended To Test scripts in a safe env like virtual machine (VM).  
+> Report issues you find [here](https://github.com/harilvfs/rdevs/issues), and avoid using on your main system until a stable release is available.
 
 ## Usages 🚀
 
