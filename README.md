@@ -9,7 +9,7 @@
 
 <div align="center">
 
-[Usages](https://harilvfs.github.io/rdevs/#installation) •
+[Installation](https://harilvfs.github.io/rdevs/#installation) •
 [Documentation](https://harilvfs.github.io/rdevs/)
 </div>
 
