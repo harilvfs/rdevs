@@ -7,8 +7,11 @@
 [![Join on Discord](https://discord.com/api/guilds/757266205408100413/widget.png?style=shield)](https://discord.gg/TAaVXT95)
 [![Downloads][downloads-badge]][downloads-link]
 
-- [Usages](https://harilvfs.github.io/rdevs/#installation)
-- [Documentation](https://harilvfs.github.io/rdevs/)
+<div align="center">
+
+[Usages](https://harilvfs.github.io/rdevs/#installation) •
+[Documentation](https://harilvfs.github.io/rdevs/)
+</div>
 
 ![Preview](preview/rdevs.png)
 
