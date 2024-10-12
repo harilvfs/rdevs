@@ -6,6 +6,7 @@
 
 [![Join on Discord](https://discord.com/api/guilds/757266205408100413/widget.png?style=shield)](https://discord.gg/TAaVXT95)
 [![Downloads][downloads-badge]][downloads-link]
+[![downloads-badge](https://img.shields.io/github/downloads/harilvfs/rdevs/total?logo=codeberg&logoColor=black)](https://github.com/harilvfs/rdevs/releases)
 
 ![Preview](preview/rdevs.png)
 
