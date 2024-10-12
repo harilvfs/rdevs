@@ -5,7 +5,7 @@
 [![Download Binary](https://img.shields.io/badge/Download_Binary-Latest-blue?style=for-the-badge)](https://github.com/harilvfs/rdevs/releases/latest/download/rdevs) [![](https://dcbadge.limes.pink/api/server/https://discord.gg/TAaVXT95)](https://discord.gg/TAaVXT95)
 
 
-[![Join on Discord](https://discordapp.com/api/guilds/757266205408100413/widget.png?style=shield)](https://discord.gg/TAaVXT95)
+[![Join on Discord](https://discordapp.com/api/guilds/1155912047897350204/widget.png?style=shield)](https://discord.gg/TAaVXT95)
 
 
 ![Preview](preview/rdevs.png)
