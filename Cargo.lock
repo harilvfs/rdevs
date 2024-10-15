@@ -180,6 +180,12 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "d231dfb89cfffdbc30e7fc41579ed6066ad03abda9e567ccafae602b97ec5024"
 
 [[package]]
+name = "indoc"
+version = "2.0.5"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "b248f5224d1d606005e02c97f5aa4e88eeb230488bcc03bc9ca4d7991399f2b5"
+
+[[package]]
 name = "instability"
 version = "0.3.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -315,14 +321,15 @@ dependencies = [
 
 [[package]]
 name = "ratatui"
-version = "0.28.2-alpha.5"
+version = "0.28.2-alpha.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "03d3331bbf717396d6493b26cdd892eb3fba1065e942d213f88dbbb0057586cc"
+checksum = "f939e9026aaea902c5bc1792df6ad37207eb887710ed2f7df81d5af51f7ec05d"
 dependencies = [
  "bitflags",
  "cassowary",
  "compact_str",
  "crossterm",
+ "indoc",
  "instability",
  "itertools",
  "lru",
