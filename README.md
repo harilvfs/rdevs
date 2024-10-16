@@ -6,6 +6,10 @@
 
 [![Join on Discord](https://discord.com/api/guilds/757266205408100413/widget.png?style=shield)](https://discord.gg/TAaVXT95)
 [![Downloads][downloads-badge]][downloads-link]
+![Build status](https://img.shields.io/github/actions/workflow/status/harilvfs/rdevs/rust-build.yml)
+![GitHub contributors](https://img.shields.io/github/contributors/harilvfs/rdevs)
+![GitHub release (latest by hari)](https://img.shields.io/github/downloads/harilvfs/rdevs/latest/total)
+![Latest release](https://img.shields.io/github/release/harilvfs/rdevs.svg)
 
 <div align="center">
 
