@@ -2,7 +2,7 @@
 
 **Rdevs** is a 'Rust-written' TUI, built using **Ratatui**, designed to create a user-friendly menu interface for system setup and executing various scripts.
 
-[![Download Binary](https://img.shields.io/badge/Download_Binary-Latest-blue?style=for-the-badge)](https://github.com/harilvfs/rdevs/releases/latest/download/rdevs) [![](https://dcbadge.limes.pink/api/server/https://discord.gg/HBySRyymyZ?theme=discord-inverted)](https://discord.gg/HBySRyymyZ)
+[![Download Binary](https://img.shields.io/badge/Download_Binary-Latest-blue?style=for-the-badge)](https://github.com/harilvfs/rdevs/releases/latest/download/rdevs) [![](https://dcbadge.limes.pink/api/server/https://discord.gg/HBySRyymyZ?theme=discord-inverted?logoColor=ff6b6b)](https://discord.gg/HBySRyymyZ)
 
 [![Join on Discord](https://discord.com/api/guilds/757266205408100413/widget.png?style=shield)](https://discord.gg/TAaVXT95)
 [![Downloads][downloads-badge]][downloads-link]
