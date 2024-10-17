@@ -10,7 +10,7 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/harilvfs/rdevs)
 ![GitHub release (latest by hari)](https://img.shields.io/github/downloads/harilvfs/rdevs/latest/total)
 ![Latest release](https://img.shields.io/github/release/harilvfs/rdevs.svg)
-[![License](http://img.shields.io/:license-mit-blue.svg)](https://opensource.org/license/mit)
+[![License](http://img.shields.io/:license-MIT-blue.svg)](https://opensource.org/license/mit)
 
 
 <div align="center">
