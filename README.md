@@ -10,6 +10,7 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/harilvfs/rdevs)
 ![GitHub release (latest by hari)](https://img.shields.io/github/downloads/harilvfs/rdevs/latest/total)
 ![Latest release](https://img.shields.io/github/release/harilvfs/rdevs.svg)
+![](https://dcbadge.limes.pink/api/shield/757265900037734410?style=plastic)
 
 <div align="center">
 
