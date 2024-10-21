@@ -1,21 +1,21 @@
-use std::io::{stdout};
+use crossterm::{
+    event::{self, Event, KeyCode},
+    execute,
+};
 use ratatui::{
     backend::CrosstermBackend,
     layout::{Constraint, Direction, Layout},
     style::{Color, Modifier, Style},
     text::Span,
+    widgets::ListState,
     widgets::{Block, Borders, List, ListItem, Paragraph},
     Terminal,
-    widgets::ListState,
 };
-use crossterm::{
-    event::{self, Event, KeyCode},
-    execute,
-};
+use std::io::stdout;
 
-const HELP_MESSAGE: &str = "This tool helps to automate Arch Linux setup.\n\
-                            Select 'Arch Setup' to install packages and configure the system.\n\
-                            Press Enter to return to the menu.";
+const HELP_MESSAGE: &str = "This tool helps to automate Arch Linux System Setup. \n\
+                            Select 'Arch Setup' to install packages and configure the system. \n\
+                            DOCS - https://harilvfs.github.io/rdevs/ ";
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
     let mut stdout = stdout();
@@ -26,28 +26,35 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     let mut terminal = Terminal::new(backend)?;
 
     let mut menu_state = ListState::default();
-    menu_state.select(Some(0)); 
+    menu_state.select(Some(0));
     let mut output_message = String::new();
 
     loop {
         terminal.draw(|f| {
             let chunks = Layout::default()
                 .direction(Direction::Vertical)
-                .constraints(
-                    [Constraint::Percentage(60), Constraint::Percentage(40)].as_ref(),
-                )
+                .constraints([Constraint::Percentage(60), Constraint::Percentage(40)].as_ref())
                 .split(f.area());
 
             let menu_items = vec![
                 ListItem::new(Span::raw("Arch Setup")),
-                ListItem::new(Span::raw("Hyprland Setup")),  
+                ListItem::new(Span::raw("Hyprland Setup")),
+                ListItem::new(Span::raw("Dwm Setup")),
                 ListItem::new(Span::raw("Help & Info")),
                 ListItem::new(Span::raw("Exit")),
             ];
 
             let menu = List::new(menu_items)
-                .block(Block::default().borders(Borders::ALL).title("Linux System Arch Setup"))
-                .highlight_style(Style::default().fg(Color::Yellow).add_modifier(Modifier::BOLD))
+                .block(
+                    Block::default()
+                        .borders(Borders::ALL)
+                        .title("Linux System Arch Setup"),
+                )
+                .highlight_style(
+                    Style::default()
+                        .fg(Color::Yellow)
+                        .add_modifier(Modifier::BOLD),
+                )
                 .highlight_symbol(">> ");
 
             f.render_stateful_widget(menu, chunks[0], &mut menu_state);
@@ -62,36 +69,45 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
             match key.code {
                 KeyCode::Down => {
                     let i = menu_state.selected().unwrap_or(0);
-                    let next_index = if i >= 3 { 0 } else { i + 1 };  
+                    let next_index = if i >= 4 { 0 } else { i + 1 };
                     menu_state.select(Some(next_index));
                 }
                 KeyCode::Up => {
                     let i = menu_state.selected().unwrap_or(0);
-                    let next_index = if i == 0 { 3 } else { i - 1 };  
+                    let next_index = if i == 0 { 4 } else { i - 1 };
                     menu_state.select(Some(next_index));
                 }
                 KeyCode::Enter => match menu_state.selected() {
                     Some(0) => {
-                        output_message = String::from("Running Arch Setup...\nPress Enter to return to menu.");
+                        output_message =
+                            String::from("Running Arch Setup...\nPress Enter to return to menu.");
                     }
-                    Some(1) => {  
-                        output_message = String::from("Running Hyprland Setup...\nPress Enter to return to menu.");
+                    Some(1) => {
+                        output_message = String::from(
+                            "Running Hyprland Setup...\nPress Enter to return to menu.",
+                        );
                     }
                     Some(2) => {
+                        output_message =
+                            String::from("Running Dwm Setup...\nPress Enter to return to menu.");
+                    }
+                    Some(3) => {
                         output_message = String::from(HELP_MESSAGE);
                     }
-                    Some(3) => break, 
+                    Some(4) => break,
                     _ => unreachable!(),
                 },
-                KeyCode::Char('q') => break, 
+                KeyCode::Char('q') => break,
                 _ => {}
             }
         }
     }
 
     crossterm::terminal::disable_raw_mode()?;
-    execute!(terminal.backend_mut(), crossterm::terminal::LeaveAlternateScreen)?;
+    execute!(
+        terminal.backend_mut(),
+        crossterm::terminal::LeaveAlternateScreen
+    )?;
 
     Ok(())
 }
-
