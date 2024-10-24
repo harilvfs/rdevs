@@ -4,13 +4,13 @@
 
 [![Download Binary](https://img.shields.io/badge/Download_Binary-Latest-blue?style=for-the-badge)](https://github.com/harilvfs/rdevs/releases/latest/download/rdevs) [![](https://dcbadge.limes.pink/api/server/https://discord.gg/HBySRyymyZ?logoColor=pink)](https://discord.gg/HBySRyymyZ)
 
-[![Join on Discord](https://discord.com/api/guilds/757266205408100413/widget.png?style=shield&style=for-the-badge)](https://discord.gg/TAaVXT95)
+[![Join on Discord](https://discord.com/api/guilds/757266205408100413/widget.png?style=shield)](https://discord.gg/TAaVXT95)
 [![Downloads][downloads-badge]][downloads-link]
-![Build status](https://img.shields.io/github/actions/workflow/status/harilvfs/rdevs/rust-build.yml)
-![GitHub contributors](https://img.shields.io/github/contributors/harilvfs/rdevs)
-![GitHub release (latest by hari)](https://img.shields.io/github/downloads/harilvfs/rdevs/latest/total)
-![Latest release](https://img.shields.io/github/release/harilvfs/rdevs.svg)
-[![License](http://img.shields.io/:license-MIT-blue.svg)](https://opensource.org/license/mit)
+![Build status](https://img.shields.io/github/actions/workflow/status/harilvfs/rdevs/rust-build.yml?style=for-the-badge)
+![GitHub contributors](https://img.shields.io/github/contributors/harilvfs/rdevs?style=for-the-badge)
+![GitHub release (latest by hari)](https://img.shields.io/github/downloads/harilvfs/rdevs/latest/total?style=for-the-badge)
+![Latest release](https://img.shields.io/github/release/harilvfs/rdevs.svg?style=for-the-badge)
+[![License](http://img.shields.io/:license-MIT-blue.svg?style=for-the-badge)](https://opensource.org/license/mit)
 
 
 <div align="center">
