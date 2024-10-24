@@ -48,5 +48,5 @@ For a **Comprehensive** understanding, please check out the **[Rdevs Documentati
 
 This project is licensed under the **MIT License**. See the **[LICENSE](LICENSE)** file for more details.
 
-[downloads-badge]: https://img.shields.io/github/downloads/harilvfs/rdevs/total?logo=github&logoColor=black&color=blue
+[downloads-badge]: https://img.shields.io/github/downloads/harilvfs/rdevs/total?logo=github&logoColor=black&color=blue&style=for-the-badge
 [downloads-link]: https://github.com/harilvfs/rdevs/releases
