@@ -9,7 +9,7 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/harilvfs/rdevs?style=for-the-badge&logo=github)
 ![GitHub release (latest by hari)](https://img.shields.io/github/downloads/harilvfs/rdevs/latest/total?style=for-the-badge&logo=github)
 ![Latest release](https://img.shields.io/github/release/harilvfs/rdevs.svg?style=for-the-badge&logo=github)
-![Github Language](https://img.shields.io/github/languages/harilvfs/rdevs?style=for-the-badge&logo=github)
+![Github Language](https://img.shields.io/github/languages/top/harilvfs/rdevs?style=for-the-badge&logo=github)
 [![License](http://img.shields.io/:license-MIT-blue.svg?style=for-the-badge&logo=github)](https://opensource.org/license/mit)
 
 [![Join on Discord](https://discord.com/api/guilds/757266205408100413/widget.png?style=shield)](https://discord.gg/TAaVXT95)
