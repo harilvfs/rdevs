@@ -3,7 +3,7 @@
 If you discover a security vulnerability within Rdevs, please follow these steps to report it:
 
 1. **Do Not Open an Issue**: To ensure that the vulnerability is not publicly disclosed before it is fixed, please do not open an issue in the repository.
-2. **Email the Maintainers**: Send an email to [ingoprivate@gmail.com](mailto:ingoprivate@gmai.com) detailing the vulnerability. Include the following information:
+2. **Email the Maintainers**: Send an email to [harilvfs@chalisehari.com.np](mailto:harilvfs@chalisehari.com.np) detailing the vulnerability. Include the following information:
    - A clear description of the vulnerability
    - Steps to reproduce the vulnerability
    - Any relevant code snippets or configurations
